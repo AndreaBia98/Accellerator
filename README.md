@@ -23,8 +23,8 @@ PreciseRTCTimer.h        # Timer ad alta precisione basato su RTCZero + millis()
 |---|---|
 | MCU | Arduino MKR WiFi 1010 (SAMD21G18A) |
 | Pompe | 2× pompa con motore DC (canale 1 e 2) |
-| Flussimetri | 2× sensore analogico Sonotech (uscita tensione 0–3.3 V) |
-| Sensori tensione | 2× ingresso analogico (monitor alimentazione pompe) |
+| Flussimetri | 2× sensore analogico Sonotech 4-20mA |
+| PCB | DSFLAB pcb generata tramite Kicad  |
 
 ### Pinout
 
