@@ -120,7 +120,7 @@ Struttura `PayloadRicezione`: 6 × `FLOATUNION_t` (4 byte ciascuno) + terminator
 | `1` | Comando manuale senza calibrazione (V diretto) | q1 | q2 | m1\_set | m2\_set |
 | `2` | **Attiva PID di portata** | setpoint1 | setpoint2 | m1\_set | m2\_set |
 | `-1` | Imposta fattori di correzione flusso | c1 | c2 | — | — |
-| `-2` | Imposta guadagni PID | Kp | Ki | Kd | pid\_flag |
+| `-2` | Imposta guadagni PID | Kp | Ki | Kd | — |
 | `-10` | Imposta coefficienti calibrazione Q→V | qalfa1 | qbeta1 | qalfa2 | qbeta2 |
 | `12` | Imposta ora RTC | HH | MM | SS | — |
 
