@@ -1,6 +1,6 @@
 # Manuale rapido di App Designer
 
-**App di esempio:** `accellerator_ottobre2026.mlapp` — controllo di due pompe peristaltiche tramite comunicazione seriale (UART) con un microcontrollore. **Requisiti:** MATLAB R2021a o successivo, Instrument Control Toolbox.
+`accellerator_ottobre2026.mlapp` — controllo di due pompe peristaltiche tramite comunicazione seriale (UART) con un microcontrollore. **Requisiti:** MATLAB R2021a o successivo, Instrument Control Toolbox.
 
 ---
 
