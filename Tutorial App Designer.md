@@ -48,7 +48,7 @@ end
 
 **Perché servono:** ogni callback ha le proprie variabili locali, che spariscono a fine esecuzione. Per far parlare due callback tra loro (es. `readSerialDataUART` scrive `app.values`, `updatePlot` lo legge) l'unico modo è una property.
 
-Si usano con `app.nomeProperty` sia in lettura che in scrittura. E' fortemente **sconsigliato** l'uso di **variabili globali** come in esempi di codice prima del 2021; sono poco ottimizzate e hanno la stessa funzione delle propriety.
+Si usano con `app.nomeProperty` sia in lettura che in scrittura. E' fortemente **sconsigliato** l'uso di **variabili globali** come in esempi di codice prima del 2021; sono poco ottimizzate e hanno la stessa funzione delle Property.
 
 ---
 
