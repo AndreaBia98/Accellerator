@@ -383,26 +383,26 @@ Togliere `disp`, `fprintf` e `assignin` a fine debug: nel timer (5 volte al seco
 
 **Seriale e Arduino**
 
-- [`serialport`](https://it.mathworks.com/help/matlab/ref/serialport.html) — creare e usare la connessione seriale
-- [`configureCallback`](https://it.mathworks.com/help/matlab/ref/serialport.configurecallback.html) — callback su numero di byte o terminatore
-- [Read Streaming Data from Arduino](https://it.mathworks.com/help/matlab/import_export/read-streaming-data-from-arduino.html) — **esempio consigliato**: lettura in streaming, il più vicino a quello che fa questa app
+- [`serialport`](https://it.mathworks.com/help/matlab/ref/serialport.html) — creare e usare la connessione seriale.
+- [`configureCallback`](https://it.mathworks.com/help/matlab/ref/serialport.configurecallback.html) — callback su numero di byte o terminatore.
+- [Read Streaming Data from Arduino](https://it.mathworks.com/help/matlab/import_export/read-streaming-data-from-arduino.html) — **esempio consigliato**: lettura in streaming, il più vicino a quello che fa questa app.
 
 **App Designer**
-- [Sviluppo di applicazioni con App Designer](https://it.mathworks.com/help/matlab/app-designer.html?s_tid=CRUX_lftnav) - Pagina principale di App designer
+- [Sviluppo di applicazioni con App Designer](https://it.mathworks.com/help/matlab/app-designer.html?s_tid=CRUX_lftnav) - Pagina principale di App designer.
 - [Grid Layout](https://it.mathworks.com/help/matlab/creating_guis/using-grid-layout-managers.html) - Corretto impaginazione degli elementi in app. 
-- [Callbacks in App Designer](https://it.mathworks.com/help/matlab/creating_guis/write-callbacks-for-gui-in-app-designer.html) — argomenti `app` ed `event`, come si creano
-- [Code View, property e dati condivisi](https://it.mathworks.com/help/matlab/creating_guis/app-designer-code-generation.html) — codice generato e condivisione dati tra callback
-- [App multifinestra](https://it.mathworks.com/help/matlab/creating_guis/creating-multiwindow-apps-in-app-designer.html) — funzioni pubbliche e `startupFcn` con argomenti in ingresso
+- [Callbacks in App Designer](https://it.mathworks.com/help/matlab/creating_guis/write-callbacks-for-gui-in-app-designer.html) — argomenti `app` ed `event`, come si creano.
+- [Code View, property e dati condivisi](https://it.mathworks.com/help/matlab/creating_guis/app-designer-code-generation.html) — codice generato e condivisione dati tra callback.
+- [App multifinestra](https://it.mathworks.com/help/matlab/creating_guis/creating-multiwindow-apps-in-app-designer.html) — funzioni pubbliche e `startupFcn` con argomenti in ingresso.
 - [Esempi di App](https://it.mathworks.com/help/matlab/examples.html?s_tid=CRUX_topnav&category=app-designer) - Esempi e spunti di applicazioni per matlab app designer.
 
-**Matlab Complier e Generazione codice**
-- [Creazione Applicazione](https://it.mathworks.com/help/matlab/creating_guis/app-sharing.html) - Come generare gli esecutivi per utenti finali
-- [Compatibilita' Toolbox](https://it.mathworks.com/products/compiler/compiler_support.html) - Lista di codici e librerie che possono essere usate in un esecutivo. (e' comunque possibile creare un .mlapp funzionante ma che poi non viene generato)
-
 **Componenti e oggetti**
-- [`timer`](https://it.mathworks.com/help/matlab/ref/timer.html) — `TimerFcn`, `ExecutionMode`, `Period`
-- [`animatedline`](https://it.mathworks.com/help/matlab/ref/animatedline.html) — grafici in tempo reale
-- [`uigauge`](https://it.mathworks.com/help/matlab/ref/uigauge.html) e [proprietà del Gauge](https://it.mathworks.com/help/matlab/ref/matlab.ui.control.gauge.html)
+- [`timer`](https://it.mathworks.com/help/matlab/ref/timer.html) — `TimerFcn`, `ExecutionMode`, `Period`.
+- [`animatedline`](https://it.mathworks.com/help/matlab/ref/animatedline.html) — grafici in tempo reale.
+- [`uigauge`](https://it.mathworks.com/help/matlab/ref/uigauge.html) e [proprietà del Gauge](https://it.mathworks.com/help/matlab/ref/matlab.ui.control.gauge.html).
 - [Proprietà del Table UI component](https://it.mathworks.com/help/matlab/ref/matlab.ui.control.table.html) — `Data`, `ColumnName`, ecc.
 
 
+
+**Matlab Complier e Generazione codice**
+- [Creazione Applicazione](https://it.mathworks.com/help/matlab/creating_guis/app-sharing.html) - Come generare gli esecutivi per utenti finali
+- [Compatibilità Toolbox](https://it.mathworks.com/products/compiler/compiler_support.html) - Lista di codici e librerie che possono essere usate in un esecutivo. (e' comunque possibile creare un .mlapp funzionante ma poi non generabile)
