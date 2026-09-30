@@ -395,9 +395,14 @@ Togliere `disp`, `fprintf` e `assignin` a fine debug: nel timer (5 volte al seco
 - [App multifinestra](https://it.mathworks.com/help/matlab/creating_guis/creating-multiwindow-apps-in-app-designer.html) — funzioni pubbliche e `startupFcn` con argomenti in ingresso
 - [Esempi di App](https://it.mathworks.com/help/matlab/examples.html?s_tid=CRUX_topnav&category=app-designer) - Esempi e spunti di applicazioni per matlab app designer.
 
-**Componenti e oggetti**
+**Matlab Complier e Generazione codice**
+- [Creazione Applicazione](https://it.mathworks.com/help/matlab/creating_guis/app-sharing.html) - Come generare gli esecutivi per utenti finali
+- [Compatibilita' Toolbox](https://it.mathworks.com/products/compiler/compiler_support.html) - Lista di codici e librerie che possono essere usate in un esecutivo. (e' comunque possibile creare un .mlapp funzionante ma che poi non viene generato)
 
+**Componenti e oggetti**
 - [`timer`](https://it.mathworks.com/help/matlab/ref/timer.html) — `TimerFcn`, `ExecutionMode`, `Period`
 - [`animatedline`](https://it.mathworks.com/help/matlab/ref/animatedline.html) — grafici in tempo reale
 - [`uigauge`](https://it.mathworks.com/help/matlab/ref/uigauge.html) e [proprietà del Gauge](https://it.mathworks.com/help/matlab/ref/matlab.ui.control.gauge.html)
 - [Proprietà del Table UI component](https://it.mathworks.com/help/matlab/ref/matlab.ui.control.table.html) — `Data`, `ColumnName`, ecc.
+
+
