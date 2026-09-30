@@ -6,7 +6,7 @@ Controller di portata e massa a doppio canale per Arduino MKR WiFi 1010 (SAMD21)
 ## Struttura del progetto
 
 ```
-fluigent_SETTEMBRE.ino   # Entry point — setup, definizione task RTOS
+accellerator_ottobre.ino   # Entry point — setup, definizione task RTOS
 Globals.h                # Dichiarazioni extern di tutte le variabili globali
 flussimetri_sonotech.h   # Lettura ADC flussimetri + filtro IIR
 kalman.h                 # Filtri di Kalman (SimpleKalmanFilter)
@@ -198,7 +198,7 @@ Usare per verificare che nessun task stia esaurendo lo stack.
 ## Avvio rapido
 
 1. Installare tutte le librerie elencate sopra.
-2. Aprire `fluigent_SETTEMBRE.ino` in Arduino IDE (selezionare board **Arduino MKR WiFi 1010**).
+2. Aprire `accellerator_ottobre.ino` in Arduino IDE (selezionare board **Arduino MKR WiFi 1010**).
 3. Caricare il firmware. Il LED built-in lampeggerà con pattern 1 s ON / 0.5 s OFF a conferma del corretto avvio dello scheduler.
 4. Aprire il monitor seriale a **115200 baud**.
 5. Inviare un comando di test (es. modalità manuale canale 1 a 50 mL/min, 100 g):
