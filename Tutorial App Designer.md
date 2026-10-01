@@ -8,7 +8,7 @@ App Designer ha due viste: **Design View** (si trascinano i componenti) e **Code
 classdef accellerator_ottobre2026 < matlab.apps.AppBase
 ```
 
-Tutto ruota attorno a una parola: **`app`**. È l'oggetto che contiene *sia* i componenti grafici (`app.STOPButton`, `app.UITable`) *sia* le variabili dell'app. Ogni funzione riceve `app` come primo argomento.
+Tutto ruota attorno a una parola: **`app`**. È l'oggetto che contiene *sia* i componenti **grafici** (`app.STOPButton`, `app.UITable`) *sia* le **variabili** dell'app. Ogni funzione riceve `app` come primo argomento.
 
 In Code View, a sinistra, il **Code Browser** ha tre tab: **Callbacks**, **Functions**, **Properties**. Sono le tre cose da capire.
 
