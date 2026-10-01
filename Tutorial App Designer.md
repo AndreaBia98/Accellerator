@@ -358,13 +358,6 @@ Una variabile creata in un callback o in una function (`raw`, `payload`, `f1`) e
 
 - **Stamparla:** `disp(raw)`, `fprintf('f1 = %g\n', f1)`, `size(raw)`, `class(payload)`.
 - **Fermarsi con un breakpoint** subito dopo la riga che la crea: a quel punto è nel workspace della funzione.
-- **Copiarla nel workspace base**, così resta disponibile anche dopo:
-
-```matlab
-assignin('base', 'raw_debug', raw);    % 'raw_debug' compare nel Workspace
-```
-
-poi dal Command Window: `typecast(uint8(raw_debug(2:37)), 'single')`.
 
 - **Salvarla in una property** (`app.ultimoRaw = raw;`, da aggiungere in Properties) e leggerla durante un breakpoint.
 
