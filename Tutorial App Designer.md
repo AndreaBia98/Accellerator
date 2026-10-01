@@ -1,9 +1,5 @@
 # Manuale rapido di App Designer
 
-`accellerator_ottobre2026.mlapp` — controllo di due pompe peristaltiche tramite comunicazione seriale (UART) con un microcontrollore. **Requisiti:** MATLAB R2021a o successivo, Instrument Control Toolbox.
-
----
-
 ## 1. Come è fatta un'app
 
 App Designer ha due viste: **Design View** (si trascinano i componenti) e **Code View** (si scrive il codice). Il file `.mlapp` è in realtà uno zip che contiene una classe MATLAB:
